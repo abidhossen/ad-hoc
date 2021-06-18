@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import AccountType from './Components/Home/AccountType/AccountType';
+import AssetClasses from './Components/Home/AssetClasses/AssetClasses';
+import BestTraders from './Components/Home/BestTraders/BestTraders';
+import Footer from './Components/Home/Footer/Footer';
+import Header from './Components/Home/Header/Header';
+import MarketParners from './Components/Home/MarketPartners/MarketParners';
+import NewsAnalysis from './Components/Home/NewsAnalysis/NewsAnalysis';
+import OpenAccount from './Components/Home/OpenAccount/OpenAccount';
+import TradingPlatform from './Components/Home/TradingPlatforms/TradingPlatform';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <BestTraders></BestTraders>
+      <AccountType></AccountType>
+      <AssetClasses></AssetClasses>
+      <OpenAccount></OpenAccount>
+      <MarketParners></MarketParners>
+      <TradingPlatform></TradingPlatform>
+      <NewsAnalysis></NewsAnalysis>
+      <Footer></Footer>
     </div>
   );
 }
