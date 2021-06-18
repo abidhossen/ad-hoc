@@ -1,0 +1,13 @@
+.header{
+    min-height: 100%;
+}
+
+.headerTop{
+    background-image: url(Images/bgImg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #41A0AB;
+
+}

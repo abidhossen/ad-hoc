@@ -1,9 +1,20 @@
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            this is header vhvjhvb
+        <div className="header container-fluid">
+        <div className="headerTop">
+            <div className="Navbar">
+
+            </div>
+            <div className="bgImgText">
+
+            </div>
+        </div>
+        <div className="headerBottom">
+
+        </div>
         </div>
     );
 };
