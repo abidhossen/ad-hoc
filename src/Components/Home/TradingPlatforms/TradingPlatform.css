@@ -1,0 +1,40 @@
+.tradingPlatform-container{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    height: 550px;
+}
+.trade-header{
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.tradeHeader-custom{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #40A0AB;
+    
+}
+.trade-content{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.trade-button{
+    color: #40A0AB;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* .trading-icons{
+    display: flex;
+    justify-content: space-around;
+} */
+.trade-image {
+    position: relative;
+}
+.tradeImage-icons {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

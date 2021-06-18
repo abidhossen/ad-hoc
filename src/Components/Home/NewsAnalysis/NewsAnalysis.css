@@ -1,0 +1,77 @@
+.news-container{
+    background-color: #EAFAFF;
+    padding: 40px 10px ;
+}
+.news-header h1{
+    font-size: 42px;
+    font-weight: normal;
+}
+.news-header p{
+    font-size: 20px;
+}
+.extra-header{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #40A0AB;
+}
+.news-button{
+    background-color: #2F90B6;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 17px;
+}
+.newsCard-container{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+.newsCard-active{
+    border: 2px solid #40A0AB;
+}
+.newsCard{
+    
+    width: 450px;
+    height: 310px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px #00000026;
+}
+.newsCard-time{
+    font-size: 13px;
+    color: #40A0AB;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.newsCard-header{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.newsCard-content{
+    margin-bottom: 30px;
+}
+.newsCard-button{
+    background: linear-gradient(to right, #3C9CAF,#2D8EB7);
+    border: none;
+    color: #fff;
+    padding: 8px 30px;
+}
+.newsCardButton-active{
+    background: linear-gradient(to right, #3C9CAF,#2D8EB7);
+    border: none;
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: bold;
+}
+
+.newsCard-button{
+    background: #fff;
+    color: #2F90B6;
+    border: 2px solid #2F8CAE;
+    padding: 8px 30px;
+    font-weight: bold;
+}
