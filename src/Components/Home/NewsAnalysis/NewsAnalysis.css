@@ -8,6 +8,7 @@
 }
 .news-header p{
     font-size: 20px;
+    margin-bottom: 20px;
 }
 .extra-header{
     font-weight: bold;
@@ -30,7 +31,6 @@
     border: 2px solid #40A0AB;
 }
 .newsCard{
-    
     width: 450px;
     height: 310px;
     margin: 30px auto;
@@ -74,4 +74,92 @@
     border: 2px solid #2F8CAE;
     padding: 8px 30px;
     font-weight: bold;
+}
+.newsCard-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width:1763px){
+    .newsCard-container{
+        width: 90%;
+        margin: auto;
+        padding: 50px 0;
+    }
+}
+@media only screen and (max-width:1575px){
+    .newsCard-container{
+        width: 95%;
+        margin: auto;
+        padding: 50px 0;
+    }
+}
+@media only screen and (max-width:1472px){
+    .newsCard-container{
+        width: 95%;
+        margin: auto;
+        padding: 50px 0;
+    }
+    .newsCard{
+        width: 400px;
+        height: 330px;
+    }
+}
+@media only screen and (max-width:1337px){
+    .newsCard{
+        width: 380px;
+        height: 330px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .newsCard{
+        width: 350px;
+        height: 370px;
+    }
+    .newsCard-container{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:1300px){
+    .newsCard{
+        width: 350px;
+        height: 370px;
+    }
+    .newsCard-container{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:1196px){
+    .newsCard{
+        width: 340px;
+        height: 370px;
+    }
+    
+}
+@media only screen and (max-width:1131px){
+    .newsCard{
+        width: 320px;
+        height: 390px;
+    }
+    
+}
+@media only screen and (max-width:1070px){
+    .newsCard-details{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .newsCard{
+        width: 450px;
+        height: 330px;
+    }
+}
+@media only screen and (max-width:960px){
+    .newsCard-details{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .newsCard{
+        width: 450px;
+        height: 330px;
+    }
 }

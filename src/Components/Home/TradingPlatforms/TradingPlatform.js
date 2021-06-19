@@ -12,8 +12,8 @@ import './TradingPlatform.css'
 const TradingPlatform = () => {
     return (
         <div className="tradingPlatform-container">
-            <div className="row">
-                <div className="col-md-6">
+            <div className="trading-details">
+                <div className="trading-details1">
                     <img src={tradeLogoSmall} alt="" />
                     <div className="trade-header">
                         Choose Trading Platform <br />
@@ -33,7 +33,7 @@ const TradingPlatform = () => {
                         <img className="mr-5" src={investment} alt="" />
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="trading-details2">
                     <div className="trade-image text-center">
                         <img src={tradeImage} alt="" />
                     </div>

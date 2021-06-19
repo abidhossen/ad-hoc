@@ -11,8 +11,8 @@ const NewsAnalysis = () => {
                 <button className="news-button">Read All Update</button>
             </div>
             <div className="newsCard-container">
-                <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 ">
+                <div className="newsCard-details">
+                    <div className="col-lg-4 col-md-6 col-sm-12 ">
                         <div className="newsCard newsCard-active">
                         <div className="newsCard-time">
                                 September, 15 2017
@@ -28,9 +28,9 @@ const NewsAnalysis = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="newsCard">
-                        <div className="newsCard-time">
+                            <div className="newsCard-time">
                                 September, 15 2017
                             </div>
                             <div className="newsCard-header">
@@ -44,7 +44,7 @@ const NewsAnalysis = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="newsCard">
                             <div className="newsCard-time">
                                 September, 15 2017

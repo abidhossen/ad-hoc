@@ -10,9 +10,9 @@ import webMoney from './images/webmoney.png';
 import './Footer.css'
 const Payments = () => {
     return (
-        <div>
-            <div className="payment-container">
-                        <div className="payment-icons">
+        <div  className="payment-container">
+            <div className='payments'>
+            <div className="payment-icons">
                         <img src={topChange} alt="this"/>
                         </div>
                    
@@ -43,8 +43,6 @@ const Payments = () => {
                         <div className="payment-icons">
                         <img src={webMoney} alt="this"/>
                         </div>
-                   
-                
             </div>
         </div>
     );
