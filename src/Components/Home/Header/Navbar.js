@@ -9,7 +9,7 @@ import {GiHamburgerMenu} from 'react-icons/gi';
 
 function Navbar(){
     return(
-        <nav className="navbar navbar-expand-lg navbar-light N">
+        <nav className="navbar navbar-expand-xl navbar-light N">
   <div className="container-fluid" >
     <a className="navbar-brand" href="#" >
         <img src={Logo} alt="Logo"/>

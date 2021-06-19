@@ -82,7 +82,7 @@ const BestTraders = () => {
              <div className="HdBold TraderTxt">Best Traders</div>
              
              <div className="BttnDiv">
-                 <button className="LiveActBtn">For Investors <span className="IconDiv"><AiOutlineArrowRight className="LiveAccIcon"/></span></button>
+                 <button className="LiveActBtn">For Investors </button>
                  <button className="ForTraderBtn">For Traders</button>
              </div>         
 
@@ -117,7 +117,7 @@ const BestTraders = () => {
 
             </div>
         </div>
-        <div className="TraderBottomSection">
+        <div className="TraderBottomSection ">
         {TraderArr.map(CreateCard)}
         </div>
         </div>
