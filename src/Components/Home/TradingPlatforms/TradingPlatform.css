@@ -1,0 +1,269 @@
+.tradingPlatform-container{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    height: 550px;
+}
+.trade-header{
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.trading-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tradeHeader-custom{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #40A0AB;
+    
+}
+.trade-content{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.trade-button{
+    color: #40A0AB;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* .trading-icons{
+    display: flex;
+    justify-content: space-around;
+} */
+/* .trade-image img{
+    position: relative;
+}
+.tradeImage-icons{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} */
+.trading-details2{
+    position: relative;
+}
+.tradeImage-icons{
+    position: absolute;
+    top: 300px;
+    bottom: 0px;
+    right: 0px;
+    left: 0;
+}
+/* @media only screen and (max-width:1514px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img{
+        width: 150px;
+        height: 70px;
+    }
+    .trade-image {
+        position: relative;
+    }
+    .tradeImage-icons {
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+@media only screen and (max-width:1382px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img{
+        width: 130px;
+        height: 60px;
+    }
+    .tradingPlatform-container{
+        width: 95%;
+        margin: auto;
+        padding: 50px 0;
+        height: 550px;
+    }
+    .trade-image {
+        position: relative;
+    }
+    .tradeImage-icons {
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+@media only screen and (max-width:1320px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img{
+        width: 130px;
+        height: 60px;
+    }
+    .tradingPlatform-container{
+        width: 95%;
+        margin: auto;
+        padding: 40px 0;
+        height: 550px;
+    }
+    .trade-image {
+        position: relative;
+        width: 95%;
+    }
+    .trade-image img{
+        position: relative;
+        width: 550px;
+        height: 370px;
+    }
+    .tradeImage-icons {
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+@media only screen and (max-width:1320px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img{
+        width: 130px;
+        height: 60px;
+    }
+    .tradingPlatform-container{
+        width: 95%;
+        margin: auto;
+        padding: 40px 0;
+        height: 550px;
+    }
+    .trade-image {
+        position: relative;
+        width: 95%;
+    }
+    .trade-image img{
+        position: relative;
+        width: 550px;
+        height: 370px;
+    }
+    .tradeImage-icons {
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+@media only screen and (max-width:1306px){
+    
+} */
+
+@media only screen and (max-width:1487px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img {
+        width: 150px;
+    }
+    .tradeImage-icons{
+        width: 100%;
+    }
+    .tradeImage-icons img{
+        width: 130px;
+    }
+}
+@media only screen and (max-width:1359px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img {
+        width: 130px;
+        height: 60px;
+        margin-right: 30px!important;
+    }
+    .tradeImage-icons{
+        width: 100%;
+    }
+    .tradeImage-icons img{
+        width: 130px;
+    }
+}
+@media only screen and (max-width:1242px){
+    .trading-icons{
+        width: 100%;
+    }
+    .trading-icons img {
+        width: 120px;
+        height: 50px;
+        margin-right: 20px!important;
+    }
+    .tradeImage-icons{
+        width: 100%;
+    }
+    .tradeImage-icons img{
+        width: 130px;
+    }
+    .trade-button{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:1188px){
+    .trading-details{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tradingPlatform-container{
+        height: 900px;
+    }
+    .trading-details1{
+        text-align: center;
+    }
+    .trading-icons img {
+        width: 120px;
+        height: 50px;
+        margin-right: 20px!important;
+        margin-bottom: 40px;
+    }
+    .trade-button{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:827px){
+    .trade-image{
+        width: 100%;
+    }
+    .trade-image img{
+        width: 600px;
+    }
+    .tradingPlatform-container{
+       
+        height: 980px;
+    }
+}
+@media only screen and (max-width:660px){
+    .trade-image img{
+        width: 500px;
+    }
+    .tradeImage-icons img{
+        width: 110px;
+    }
+    .tradeImage-icons{
+        position: absolute;
+        top: 250px;
+        bottom: 0px;
+        right: 0px;
+        left: 0;
+    }
+    .tradingPlatform-container{
+       
+        height: 900px;
+    }
+}
