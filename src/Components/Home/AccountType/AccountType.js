@@ -141,7 +141,7 @@ const AccountType = () => {
             <div className="AccountTypeCard">
                 <div className="AccountCardHd ECN">ECN</div>
                 <div>
-                <div className="AccountCardSubHd ECNBg">Market Execution</div>
+                <div className="AccountCardSubHd ECNBg">Market Execution/ Instant Execution</div>
                 </div>
                 <table className="AccountTable">
                     

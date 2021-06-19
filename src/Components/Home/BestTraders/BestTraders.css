@@ -1,10 +1,10 @@
 .BestTraderDiv{
     background-color: #EAFAFF;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 67%, 0 91%);
-    clip-path: polygon(0 0, 100% 0%, 100% 67%, 0 91%);
-    height: 800px;
+    /* -webkit-clip-path: polygon(0 0, 100% 0%, 100% 67%, 0 91%); */
+    clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
+    height: auto;
     padding: 40px 100px;
-    padding-bottom: 100px;
+    padding-bottom: 20vw;
     font-family: 'Arimo', sans-serif;
 
 }
@@ -48,6 +48,8 @@
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 100;
 }
 
 .TraderCard{
@@ -75,6 +77,13 @@
 
 }
 
+.CardOpenactBtn:hover{
+    background-color: #fff;
+    content: #40A0AB;
+    border: 1px solid #40A0AB;
+    color: #40A0AB;
+}
+
 .ForTraderBtn{
     background-color: rgba(0,0,0,0);
     border: 2px solid #2A88B0;
@@ -88,10 +97,10 @@
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
 
     .BestTraderDiv{
-        padding: 40px 0;
+        padding-bottom: 50vw !important;
     }
 
     .TraderTopSection{
@@ -122,9 +131,66 @@
         margin: 10px 0;
     }
 
-    
-    
-
 
 
 }
+
+@media screen and (max-width: 1024px){
+    .TraderBottomSection{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+}
+.TraderCard{
+    margin: 20px 0;
+}
+.ForTraderBtn{
+    margin: 10px 0;
+}
+.BestTraderDiv{
+    padding-bottom: 30vw !important;
+}
+
+
+}
+
+@media screen and (max-width: 770px){
+    .ForTraderBtn{
+        margin: 10px !important;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .BestTraderDiv{
+        padding: 40px 30px;
+    }
+    .TraderTopSection{
+        display: block;
+        width: 100%;
+         margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TraderBottomSection{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center !important;
+        align-items: center;
+        align-content: center;
+    }
+
+    /* .BestTraderDiv{
+        padding: 40px 20px;
+        padding-bottom: 150vw !important;
+    } */
+
+}
+
+
+
+

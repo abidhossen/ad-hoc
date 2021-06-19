@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import OpnActBtn from './Images/Rectangle 2682.svg';
 import Logo from './Images/ECN.svg';
 import Flag from './Images/flag-round-250.png';
 import TextImg from './Images/Group 1215.svg';
@@ -49,7 +50,9 @@ const Header = () => {
              <div className="HdSub">CFD Trading: Forex, Indices, Shares, Gold, Oil and more</div>
              <div className="HdSub">with a fully regulated broker.</div>
              <div className="BttnDiv">
-                 <button className="LiveActBtn">Open Live Account <span className="IconDiv"><AiOutlineArrowRight className="LiveAccIcon"/></span></button>
+                 <button className="LiveActBtn" >
+                 Open Live Account
+                 </button>
                  <button className="OpenDemoBtn">OPEN DEMO ACCOUNT</button>
              </div>           
 

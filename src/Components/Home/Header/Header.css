@@ -32,6 +32,10 @@ a{
     justify-content: space-evenly !important;
 }
 
+.navbar{
+    padding: 0 !important;
+}
+
 
 
 .N{
@@ -113,9 +117,15 @@ a{
 }
 
 .IconDiv{
-    clip-path: polygon(51% 0, 100% 0, 100% 100%, 16% 100%);
     background: linear-gradient(#43A3A7,#328EC6 );
+    width: 100%;
+    height: 100%;
     color: #fff;
+    font-size: 16px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 10% 100%);
+    padding: 10px 0;
+    /* padding: 10px ; */
+
  
 
 }
@@ -147,14 +157,24 @@ a{
 
 .LiveActBtn{
     background-color: rgba(0,0,0,0);
+    /* clip-path: polygon(71% 0, 100% 0%, 100% 100%, 42% 100%); */
     border: 2px solid #41A0AB;
-    padding: 0;
+    padding: 10px 20px;
     font-size: 16px;
     color: #41A0AB;
     font-weight: 600;
     font-family: 'Arimo', sans-serif;
     margin: 10px 0;
 
+}
+
+.LiveActBtn:hover{
+    background-color: #41A0AB;
+    color: #fff;
+}
+
+.BtnCnt{
+    padding: 10px 20px;
 }
 
 
@@ -206,7 +226,7 @@ a{
 .ChatOption{
     position: fixed;
     box-shadow: 0px 3px 6px #4dcad859;
-    top: 62%;
+    top: 60%;
     left: 90%;
     background: linear-gradient(#43A3A7,#328EC6 );
     padding: 30px;
@@ -248,3 +268,21 @@ a{
 
     
 }
+
+@media screen and (max-width: 450px){
+    .OpenDemoBtn{
+        margin-left: 0;
+    }
+
+    .ChatOption{
+        left: 45% !important;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .ChatOption{
+        left: 80%;
+    }
+}
+
+
