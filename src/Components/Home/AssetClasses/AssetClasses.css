@@ -1,0 +1,71 @@
+
+.AssetSection{
+    margin: 1vw 5vw;
+    background-image: url(Images/g12.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.AssetTopSection{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.AssetBottomSection{
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.AssetLeftSection{
+    width: 100%;
+    }
+
+.AssetRightSection{
+    width: 100%;
+}
+
+.AssetTableLeft{
+    width: 70%;
+}
+
+.AssetTableRight{
+    width: 80%;
+    line-height: 0;
+    font-size: 14px;
+}
+
+.LeftAssetImg{
+    margin: 10px;
+    margin-right: 2vw;
+}
+
+.AssetTableHd{
+    color: #2F90B6;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.AssetTableCnt{
+    font-size: 16px;
+    color: #3B3B3B;
+}
+
+.AssetRightTableHd{
+    font-size: 18px;
+    color: #40A0AB;
+    font-weight: bold;
+}
+
+.AssetRightTableCnt{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.AssetRightRight{
+    text-align: right;
+}
