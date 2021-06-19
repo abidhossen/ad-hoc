@@ -1,6 +1,18 @@
 .header{
     min-height: 100%;
+    background: linear-gradient(#43A3A7,#328EC6 );
+
 }
+
+a{
+    text-decoration: none !important;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+
 
 .headerTop{
     background-image: url(Images/bgImg.png);
@@ -9,5 +21,230 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #41A0AB;
+    padding: 20px 5vw;
+    height: 100%;
 
+
+}
+
+.NavbarContents{
+    display: inline-flex;
+    justify-content: space-evenly !important;
+}
+
+
+
+.N{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly !important;
+
+}
+
+.nav-link{
+    color: #000 !important;
+    font-weight: 700 !important;
+    font-size: 18px;
+    margin: 0 10px !important;
+}
+
+.navbarIcon{
+    color: #fff;
+    font-size: 20px;
+    align-content: center;
+}
+
+.Hamburger{
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.navbar-light .navbar-toggler{
+    border: 2px solid white;
+}
+
+
+.col{
+    padding: 0 !important;
+}
+
+.row{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.NavLink{
+    display: inline;
+    justify-content: space-evenly;
+    width: fit-content;
+    font-family: 'Arimo', sans-serif;
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.NavIcon{
+    color: #3490C4;
+}
+
+.Search{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: #3490C4;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.LoginBtn{
+    background: linear-gradient(#43A3A7,#328EC6 );
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    padding:  10px 20px;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    font-size: 16px; 
+    margin: 0 10px;   
+}
+
+.CountryBtn{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.IconDiv{
+    clip-path: polygon(51% 0, 100% 0, 100% 100%, 16% 100%);
+    background: linear-gradient(#43A3A7,#328EC6 );
+    color: #fff;
+ 
+
+}
+
+.bgImgText{
+    padding: 5vw 3vw;
+}
+
+.Hd{
+    font-family: 'Arimo', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+
+}
+
+.HdBold{
+    font-family: 'Arimo', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-decoration: underline;
+  text-decoration-color: #41A0AB;
+}
+
+.HdSub{
+    color: #565656;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.LiveActBtn{
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #41A0AB;
+    padding: 0;
+    font-size: 16px;
+    color: #41A0AB;
+    font-weight: 600;
+    font-family: 'Arimo', sans-serif;
+    margin: 10px 0;
+
+}
+
+
+
+.OpenDemoBtn{
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #2A88B0;
+    background-color: #2C8DB8;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Arimo', sans-serif;
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+}
+
+.headerBottom{
+    width: 100%;
+    /* background: linear-gradient(#43A3A7,#328EC6 ); */
+    display: inline-flex;
+    padding: 30px 5vw;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+
+
+.bottomHd{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.bottomSubHd{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.VerticalRow{
+    width: 0;
+    height: 80px;
+    border: 1px dashed #CBCBCB;
+    opacity: 0.52;
+}
+
+.ChatOption{
+    position: fixed;
+    box-shadow: 0px 3px 6px #4dcad859;
+    top: 62%;
+    left: 90%;
+    background: linear-gradient(#43A3A7,#328EC6 );
+    padding: 30px;
+    border-radius: 50%;
+    z-index: 100;
+
+}
+
+@media screen and (max-width: 900px){
+    .headerBottom{
+        display: block;
+        width: 50%;
+        margin:   0 auto;
+        text-align: center;
+    }
+
+    .VerticalRow{
+        visibility: hidden;
+    }
+
+    .ChatOption{
+        top: 60%;
+        left: 80%;
+    }
+
+
+    
+    
+
+}
+
+@media screen and (max-width: 600px){
+
+    .ChatOption{
+        left: 70%;
+    top: 80%;
+    }
+    
+
+    
 }
