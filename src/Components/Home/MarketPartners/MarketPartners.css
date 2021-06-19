@@ -1,5 +1,54 @@
 .market-container{
-    background-image:url(./images/bg.png) ;
+    background-image:url(./images/bgr.jpg) ;
     background-size: cover;
-    /* clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); */
+    height: 900px;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+
+}
+
+  
+.market-header{
+    padding: 50px 0;
+}
+.marketHeader-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+}
+.marketHeader-custom{
+    font-weight:500;
+    text-decoration: underline;
+    text-decoration-color: #6BD9E1;
+}
+.marketHeader-text{
+    margin-top: 10px;
+    color: #fff;
+    opacity: .7;
+    font-size: 18px;
+}
+.section-container{
+    padding: 30px 0;
+    background-color: rgb(255, 255, 255, .2);
+    width: 400px;
+    height: 400px;
+}
+.hr hr{
+    border-top: 1px dashed #fff;
+    width: 70%;
+    opacity: .7;
+}
+.icon1{
+    justify-content: center;
+    align-items: center;
+}
+.icon-text{
+    color: #fff;
+    font-size: 18px;
+    opacity: .6;
+}
+.marketHeader-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
 }

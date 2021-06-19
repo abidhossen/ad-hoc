@@ -82,7 +82,9 @@ const Footer = () => {
                 </div>
                
             </div>
-            <hr />
+            <div className="footer-hr">
+                <hr />
+            </div>
            <div className="footer-bottom">
                <div className="footer-links">
                <a href="" > Privacy Policy <span className="ml-3">|</span></a>

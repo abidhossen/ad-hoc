@@ -67,10 +67,24 @@
     padding: 8px 30px;
     font-weight: bold;
 }
+.newsCardButton-active:hover{
+    background: linear-gradient(to left, #3C9CAF,#2D8EB7);
+    border: none;
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: bold;
+}
 
 .newsCard-button{
     background: #fff;
     color: #2F90B6;
+    border: 2px solid #2F8CAE;
+    padding: 8px 30px;
+    font-weight: bold;
+}
+.newsCard-button:hover{
+    background: #2F90B6;
+    color:  #fff;
     border: 2px solid #2F8CAE;
     padding: 8px 30px;
     font-weight: bold;

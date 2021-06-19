@@ -38,8 +38,8 @@
 .footer-title{
     margin-bottom: 30px;
 }
-hr{
-    border-top: 1px solid #fff!important;
+.footer-hr hr{
+    border-top: 1px solid #fff;
     opacity: .4;
 }
 .footer-bottom{
