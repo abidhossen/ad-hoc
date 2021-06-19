@@ -1,0 +1,5 @@
+.market-container{
+    background-image:url(./images/bg.png) ;
+    background-size: cover;
+    /* clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); */
+}

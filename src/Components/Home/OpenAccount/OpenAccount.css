@@ -1,0 +1,63 @@
+.openAccount-container{
+    background-image:url(./images/bg.png) ;
+    background-size: cover;
+    height: 800px;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
+.openHeader-title{
+    color: #fff;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.openAccount-header{
+    padding: 60px 0;
+}
+.openHeader-custom{
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color:#409DA7 ;
+}
+.openHeader-content{
+    color: #fff;
+    font-size: 20px;
+    opacity: .6;
+
+}
+.open-text{
+    color: #fff;
+    font-size: 18px;
+    opacity: .6;
+}
+.openAccount-content a{
+    color: #24D1E4;
+    font-size: 24px;
+    font-weight: 500;
+}
+.openAccount-content a:hover{
+    color: #24D1E4;
+    font-size: 26px;
+    text-decoration: none;
+}
+.openAccount-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin: 0 100px;
+}
+.arrow{
+    text-align: center;
+    margin: auto;
+}
+.arrow img{
+    text-align: center;
+    margin: auto;
+}
+
+.section{
+    
+    text-align: center;
+}
+.account-button img{
+    cursor: pointer;
+}

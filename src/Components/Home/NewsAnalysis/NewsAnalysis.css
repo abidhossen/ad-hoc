@@ -157,6 +157,7 @@
 @media only screen and (max-width:960px){
     .newsCard-details{
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
     }
     .newsCard{
         width: 450px;

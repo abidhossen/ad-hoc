@@ -30,11 +30,16 @@
     opacity: .8;
     
 }
+.footer-container a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
 .footer-title{
     margin-bottom: 30px;
 }
 hr{
-    border-top: 1px solid #fff;
+    border-top: 1px solid #fff!important;
     opacity: .4;
 }
 .footer-bottom{
@@ -47,6 +52,11 @@ hr{
     padding-right: 15px;
     font-size: 16px;
     opacity: .8;
+}
+.footer-links a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
 }
 .footer-bottom p{
     color: #fff;

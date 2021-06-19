@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './MarketPartners.css'
 const MarketParners = () => {
     return (
-        <div>
-            This is market partners
+        <div className="market-container">
+            Hello
         </div>
     );
 };
